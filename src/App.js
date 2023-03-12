@@ -25,15 +25,13 @@ const App = () => {
       }
 
       return (
-        <fieldset>
-            <legend>App.jsx</legend>
+        <div>
           <ToDoListForm addToDo={addToDo} />
           <ToDoListDashboard
             toDoList={toDoList}
             onDelete={removeFromList}
             onUpdateToDo={ updateToDoFromList} />
-        </fieldset>
-      
+        </div>
       );
     }
 

@@ -2,8 +2,7 @@ import React from "react";
 
 const ToDoListDashboard = (props) => {
   return (
-    <fieldset>
-      <legend>ToDoListDashboard.jsx</legend>
+    <div>
       <table>
         <thead>
           <tr>
@@ -36,7 +35,7 @@ const ToDoListDashboard = (props) => {
           ))}
         </tbody>
       </table>
-    </fieldset>
+    </div>
   );
 };
 
